@@ -1,0 +1,14 @@
+#Psych 254 Project Proposal
+
+##Measuring Reviewer Attention and Bias in Resume Studies
+
+###Justification
+Recruiting practices, important in every industry, generally include extensive evaluation of candidates by human recruiters who must often make judgments about the quality of an applicant in a short period of time. Unfortunately, scores of resume studies have shown that such practices are particularly vulnerable to human biases including gender, racial, and other stereotypes, and that these biases are subconscious on the part of the reviewer. 
+
+The eventual goal of my research is to build a software framework that interfaces with online crowdsourcing tools to recruit participants into separate experimental conditions, and measure the effect of high- and low-attention resume reviewing tasks on reviewer bias. This work will build on traditional resume studies and experimentally derive a relationship between attentiveness and bias. 
+
+
+###Description
+The first step in this process, before the research goal described above, is to validate the methodology by replicating an existing resume study. I have chosen Oreopoulos 2011, entitled “Why Do Skilled Immigrants Struggle in the Labor Market? A Field Experiment with Thirteen Thousand Resumes," for this purpose. Oreopoulos’ work is an audit study in which thousands of computationally-generated resumes were sent to job listings using ethnic (Indian, Pakistani, Chinese, and Greek) names, as well as English-sounding names. This research finds that 15.7% of English-sounding names with Canadian credentials (education, work experience) received callbacks, while only 11% of such resumes did when bearing foreign-sounding names. The paper also investigates callback rates for those applying with foreign experience, but I will focus on replicating the former result. As I am not conducting an audit study but rather an online survey-style resume study, I will be looking to replicate a gap in perceived quality of applicant, rather than callbacks. 
+In order to conduct this experiment, resumes from the original study will be recreated using online materials Dr. Oreopoulos has made available from this work. Each resume will be posted online to Amazon’s Mechanical Turk crowdsourcing platform along with a question (specific format TBD) about the quality of the applicant, using a between-subjects design to finally evaluate the average perceived quality of each hypothetical job applicant. 
+**Challenges:** In addition to recreating the original resumes, which may prove challenging due to the time elapsed since that infrastructure was built, another challenge will be to design this study in such a way as to study the same bias phenomenon that the original study targeted but without using an audit study methodology.
